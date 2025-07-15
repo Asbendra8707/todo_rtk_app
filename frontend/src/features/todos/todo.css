@@ -1,0 +1,51 @@
+/* #todo{
+    background-image: url('todobg.jpg');
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+} */
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    min-height: 100vh;
+    /* background-color: #f0f2f5; */
+    margin: 0;
+}
+
+h1{
+    color: rgb(68, 38, 0);
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 5px 15px;
+}
+
+.search-container input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 10px;
+    padding-right: 40px; /* Make space for the icon */
+    border-radius: 25px;
+    font-size: 16px;
+    width: 300px; /* Adjust width as needed */
+}
+
+.search-container .search-icon {
+    position: absolute;
+    right: 15px;
+    color: #888;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.search-container .search-icon:hover {
+    color: #555;
+}
