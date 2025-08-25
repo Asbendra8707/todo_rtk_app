@@ -9,6 +9,11 @@ const getCollection=()=>{
     return collection;
 }
 
+//Trigger-Reminder
+
+const triggerReminder = require('../utils/trigger_reminder');
+router.get('/todos/trigger', triggerReminder);
+
 //GET /todo
 router.get('/todos',async (req,res)=>{
     try{
